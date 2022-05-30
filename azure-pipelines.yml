@@ -32,7 +32,7 @@ stages:
     - script: |
         docker images
 
-    - task: NeuVectorScan@2
+    - task: NeuVectorScan@3
       inputs:
         scanType: 'standalone'
         nvContainerRegistry: 'docker hub lsong'
