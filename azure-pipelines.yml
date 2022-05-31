@@ -31,7 +31,6 @@ stages:
     
     - script: |
         docker images
-
     - task: NeuVectorScan@3
       inputs:
         scanType: 'standalone'
